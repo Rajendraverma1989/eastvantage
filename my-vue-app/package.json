@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rajendraverma1989.github.io/east_vantage/my-vue-app/",
+  "homepage": "https://rajendraverma1989.github.io/east_vantage/",
   "scripts": {
     "dev": "vite",
     "predeploy" : "npm run build",
