@@ -1,0 +1,44 @@
+@import "rsuite/dist/rsuite.css";
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.app{
+  display: flex;
+  justify-content: center;
+}
+
+body {   
+    background:color-mix(in oklab, rgb(255, 196, 0), rgb(133, 210, 216));
+    color: black;
+  }
+
+
+.userDetails{
+
+}
+.email{
+  word-break: break-all;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #679a65;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+@media screen and (max-width: 780px) {
+  .userDetails{
+  }
+}
